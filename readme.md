@@ -10,3 +10,4 @@
 # Bonus:
 * Automated Pipelines for Deployment
 * All AWS Infrastructure is deployed as script
+	- probably via tf. I don't have time to go learn cloudformation just yet.
