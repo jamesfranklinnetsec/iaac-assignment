@@ -11,3 +11,4 @@ tutorials I'm using
 # spring framework
 * seeing as I'll need to understand spring framework to understand spring boot here are my notes on the spring framework
 
+![image](https://user-images.githubusercontent.com/57028307/123411504-deffb000-d5f3-11eb-9fcc-4f80513d3d46.png)
