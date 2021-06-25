@@ -4,6 +4,7 @@
 * Running as a container
 	- using [this tutorial](https://spring.io/blog/2018/11/08/spring-boot-in-a-container)
 * Using a container orchestration of your choice
+	- the spring boot tutorial recommends docker, so docker it is.
 * Exposed via a LoadBalancer
 # Bonus:
 * Automated Pipelines for Deployment
