@@ -6,6 +6,7 @@
 * Using a container orchestration of your choice
 	- the spring boot tutorial recommends docker, so docker it is.
 * Exposed via a LoadBalancer
+	- I'll probably use nginx
 # Bonus:
 * Automated Pipelines for Deployment
 * All AWS Infrastructure is deployed as script
