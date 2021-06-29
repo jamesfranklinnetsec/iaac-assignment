@@ -6,9 +6,11 @@
 	- ~~using [this tutorial](https://spring.io/blog/2018/11/08/spring-boot-in-a-container)~~
 	- now using [this](https://stackoverflow.com/questions/27767264/how-to-dockerize-maven-project-and-how-many-ways-to-accomplish-it) instead as it seems more appropriate.
 * Using a container orchestration of your choice
-	- the spring boot tutorial recommends docker, so docker it is.
+	- ~~the spring boot tutorial recommends docker, so docker it is.~~
+	- dockerise -> put into pod -> deploy to k8s
 * Exposed via a LoadBalancer
 	- I'll probably use nginx
+	- - find an nginx k8s tutorial
 # Bonus:
 * Automated Pipelines for Deployment
 * All AWS Infrastructure is deployed as script
