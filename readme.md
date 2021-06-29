@@ -10,7 +10,7 @@
 	- dockerise -> put into pod -> deploy to k8s
 * Exposed via a LoadBalancer
 	- I'll probably use nginx
-	 - find an nginx k8s tutorial
+	-- find an nginx k8s tutorial
 # Bonus:
 * Automated Pipelines for Deployment
 * All AWS Infrastructure is deployed as script
