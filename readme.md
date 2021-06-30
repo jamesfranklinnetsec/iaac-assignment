@@ -13,10 +13,12 @@ http://ec2co-ecsel-39dby778rhnl-557674916.us-west-2.elb.amazonaws.com:8080/hello
 	- now using [this](https://stackoverflow.com/questions/27767264/how-to-dockerize-maven-project-and-how-many-ways-to-accomplish-it) instead as it seems more appropriate.
 * Using a container orchestration of your choice
 	- ~~the spring boot tutorial recommends docker, so docker it is.~~
-	- dockerise -> put into pod -> deploy to k8s
+	- ~~dockerise -> put into pod -> deploy to k8s~~
+	- dockerise -> stick into ECR -> deploy with ECS
 * Exposed via a LoadBalancer
-	- I'll probably use nginx
-	-- find an nginx k8s tutorial
+	- ~~I'll probably use nginx~~
+	-- ~~find an nginx k8s tutorial~~
+	- ECS has a button for "do you want a load balancer with that?". I'm not wasting my time screwing with nginx if amazons gonna configure everything for me.
 # Bonus:
 * Automated Pipelines for Deployment
 * All AWS Infrastructure is deployed as script
