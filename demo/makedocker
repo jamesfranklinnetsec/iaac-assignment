@@ -1,2 +1,7 @@
 #!/bin/bash
-docker build -t demo .
+#docker build -t demo . #old build was called demo. im calling it hello-world-spring on AWS ECR now.
+
+sudo docker build -t hello-world-spring .
+sudo docker tag hello-world-spring:latest public.ecr.aws/z4k2y4o4/hello-world-spring:latest
+sudo docker tag hello-world-spring:latest public.ecr.aws/z4k2y4o4/hello-world-spring:latest
+sudo docker push public.ecr.aws/z4k2y4o4/hello-world-spring:latest
