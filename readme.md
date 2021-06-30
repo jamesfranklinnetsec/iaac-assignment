@@ -24,11 +24,6 @@ http://ec2co-ecsel-39dby778rhnl-557674916.us-west-2.elb.amazonaws.com:8080/hello
 * All AWS Infrastructure is deployed as script
 	- probably via tf. I don't have time to go learn cloudformation just yet.
 
-    dockerise -> stick into ECR -> deploy with ECS
-
-Exposed via a LoadBalancer
-
-    I'll probably use nginx -- find an nginx k8s tutorial
 
 # build container:
 
