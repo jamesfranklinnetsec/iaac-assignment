@@ -21,8 +21,10 @@ http://ec2co-ecsel-39dby778rhnl-557674916.us-west-2.elb.amazonaws.com:8080/hello
 	- ECS has a button for "do you want a load balancer with that?". I will be going with the no-code philosophy :--)
 # Bonus:
 * Automated Pipelines for Deployment
+	- I would like to do this via dockerhub, but I've been informed to avoid it because it has no free tier.
 * All AWS Infrastructure is deployed as script
-	- probably via tf. I don't have time to go learn cloudformation just yet.
+	- ~~probably via tf. I don't have time to go learn cloudformation just yet.~~
+	- cloudformation looks pretty sensible right about now
 
 
 # build container:
