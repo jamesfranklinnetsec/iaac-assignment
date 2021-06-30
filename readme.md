@@ -1,3 +1,6 @@
+# find it working online here
+http://ec2co-ecsel-39dby778rhnl-557674916.us-west-2.elb.amazonaws.com:8080/hello
+
 # About project:
 # Create AWS Account and deploy a:
 * Hello World Java Application ([Spring Boot framework](https://start.spring.io/)) 
