@@ -17,4 +17,4 @@ tutorials I'm using
 * Amazon has a nice ECR feature for hosting containers. I like! However I couldn't seem to find a way to authenticate via docker login without using the AWS CLI. Ideally I would want to just get the access tokens and authenticate without the fuss of a 40MB program being required to upload a container.
 * ECS has a nice loadbalancer. It just works. No fiddling about with NginX required. I can't believe it's as simple as ticking a box in the ECS deployment dialogue. Amazing.
 * Theres a lot going on with spring boot that I'll need to understand. It also seems pretty useful and important.
-	- I like the database and web tooling. Very convenient for making APIs on the go. I'm not yet sold on it's 'containerisation' abilities, but I think I'll be sold on it once I've read up on it some more. The hype around it seems to be intense.
+	- I like the database and web tooling. Very convenient for making API responders on the go. I'm not yet sold on it's 'containerisation' abilities, but I think I'll be sold on it once I've read up on it some more. The hype around it seems to be intense.
