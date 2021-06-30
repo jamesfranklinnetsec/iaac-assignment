@@ -1,5 +1,7 @@
 # find it working online here
 http://ec2co-ecsel-39dby778rhnl-557674916.us-west-2.elb.amazonaws.com:8080/hello
+![Screenshot from 2021-06-30 12-36-49](https://user-images.githubusercontent.com/57028307/123893540-e6caa600-d99f-11eb-9d68-cd8f74cd78d2.png)
+
 
 # About project:
 # Create AWS Account and deploy a:
