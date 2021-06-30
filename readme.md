@@ -18,13 +18,17 @@ http://ec2co-ecsel-39dby778rhnl-557674916.us-west-2.elb.amazonaws.com:8080/hello
 * Exposed via a LoadBalancer
 	- ~~I'll probably use nginx~~
 	-- ~~find an nginx k8s tutorial~~
-	- ECS has a button for "do you want a load balancer with that?". I'm not wasting my time screwing with nginx if amazons gonna configure everything for me.
+	- ECS has a button for "do you want a load balancer with that?". I will be going with the no-code philosophy :--)
 # Bonus:
 * Automated Pipelines for Deployment
 * All AWS Infrastructure is deployed as script
 	- probably via tf. I don't have time to go learn cloudformation just yet.
 
+    dockerise -> stick into ECR -> deploy with ECS
 
+Exposed via a LoadBalancer
+
+    I'll probably use nginx -- find an nginx k8s tutorial
 
 # build container:
 
