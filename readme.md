@@ -31,6 +31,12 @@ http://ec2co-ecsel-39dby778rhnl-557674916.us-west-2.elb.amazonaws.com:8080/hello
 
 * cd into demo
 	- ./makedocker to make the container image and stick it into ECR
+
+
+
+
+
+
 # running:
 
 * on AWS infra
