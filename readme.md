@@ -30,7 +30,11 @@ http://ec2co-ecsel-39dby778rhnl-557674916.us-west-2.elb.amazonaws.com:8080/hello
 	- ./makedocker to make the container image and stick it into ECR
 # running:
 
-* tbd on infra
+* on AWS infra
+	- get the [AWS CLI tool](https://aws.amazon.com/cli/) and authenticate to the relevant zone with [this guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-creds). You need this to stick your container onto AWS ECR.
+	- to stick your container onto ECR, go [here](https://us-west-2.console.aws.amazon.com/ecr/get-started?region=us-west-2). Make a public repo, and give it a name. Mine ended up being public.ecr.aws/z4k2y4o4/hello-world-spring.
+	- run docker login 
+	- 
 * to run locally
 	- cd back out into root dir. of project and ./cmdtorun.sh
 	- navigate to http://localhost:8080/hello
